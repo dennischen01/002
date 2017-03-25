@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8AAF1E81E862EB100A379CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1E71E862EB100A379CC /* main.m */; };
+		E8AAF1EB1E862EB100A379CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1EA1E862EB100A379CC /* AppDelegate.m */; };
+		E8AAF1EE1E862EB100A379CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1ED1E862EB100A379CC /* ViewController.m */; };
+		E8AAF1F11E862EB100A379CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AAF1EF1E862EB100A379CC /* Main.storyboard */; };
+		E8AAF1F41E862EB100A379CC /* PDchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1F21E862EB100A379CC /* PDchat.xcdatamodeld */; };
+		E8AAF1F61E862EB100A379CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AAF1F51E862EB100A379CC /* Assets.xcassets */; };
+		E8AAF1F91E862EB100A379CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AAF1F71E862EB100A379CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8AAF1E31E862EB100A379CC /* PDchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AAF1E71E862EB100A379CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8AAF1E91E862EB100A379CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8AAF1EA1E862EB100A379CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8AAF1EC1E862EB100A379CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8AAF1ED1E862EB100A379CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8AAF1F01E862EB100A379CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8AAF1F31E862EB100A379CC /* PDchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PDchat.xcdatamodel; sourceTree = "<group>"; };
+		E8AAF1F51E862EB100A379CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AAF1F81E862EB100A379CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8AAF1FA1E862EB100A379CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8AAF1E01E862EB000A379CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8AAF1DA1E862EB000A379CC = {
+			isa = PBXGroup;
+			children = (
+				E8AAF1E51E862EB100A379CC /* PDchat */,
+				E8AAF1E41E862EB100A379CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AAF1E41E862EB100A379CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AAF1E31E862EB100A379CC /* PDchat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AAF1E51E862EB100A379CC /* PDchat */ = {
+			isa = PBXGroup;
+			children = (
+				E8AAF1E91E862EB100A379CC /* AppDelegate.h */,
+				E8AAF1EA1E862EB100A379CC /* AppDelegate.m */,
+				E8AAF1EC1E862EB100A379CC /* ViewController.h */,
+				E8AAF1ED1E862EB100A379CC /* ViewController.m */,
+				E8AAF1EF1E862EB100A379CC /* Main.storyboard */,
+				E8AAF1F51E862EB100A379CC /* Assets.xcassets */,
+				E8AAF1F71E862EB100A379CC /* LaunchScreen.storyboard */,
+				E8AAF1FA1E862EB100A379CC /* Info.plist */,
+				E8AAF1F21E862EB100A379CC /* PDchat.xcdatamodeld */,
+				E8AAF1E61E862EB100A379CC /* Supporting Files */,
+			);
+			path = PDchat;
+			sourceTree = "<group>";
+		};
+		E8AAF1E61E862EB100A379CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8AAF1E71E862EB100A379CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8AAF1E21E862EB000A379CC /* PDchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AAF1FD1E862EB100A379CC /* Build configuration list for PBXNativeTarget "PDchat" */;
+			buildPhases = (
+				E8AAF1DF1E862EB000A379CC /* Sources */,
+				E8AAF1E01E862EB000A379CC /* Frameworks */,
+				E8AAF1E11E862EB000A379CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDchat;
+			productName = PDchat;
+			productReference = E8AAF1E31E862EB100A379CC /* PDchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8AAF1DB1E862EB000A379CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "郭晓龙";
+				TargetAttributes = {
+					E8AAF1E21E862EB000A379CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Y9SMQXB8W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E8AAF1DE1E862EB000A379CC /* Build configuration list for PBXProject "PDchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8AAF1DA1E862EB000A379CC;
+			productRefGroup = E8AAF1E41E862EB100A379CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AAF1E21E862EB000A379CC /* PDchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8AAF1E11E862EB000A379CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AAF1F91E862EB100A379CC /* LaunchScreen.storyboard in Resources */,
+				E8AAF1F61E862EB100A379CC /* Assets.xcassets in Resources */,
+				E8AAF1F11E862EB100A379CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8AAF1DF1E862EB000A379CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AAF1EE1E862EB100A379CC /* ViewController.m in Sources */,
+				E8AAF1EB1E862EB100A379CC /* AppDelegate.m in Sources */,
+				E8AAF1E81E862EB100A379CC /* main.m in Sources */,
+				E8AAF1F41E862EB100A379CC /* PDchat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8AAF1EF1E862EB100A379CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AAF1F01E862EB100A379CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8AAF1F71E862EB100A379CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AAF1F81E862EB100A379CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8AAF1FB1E862EB100A379CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8AAF1FC1E862EB100A379CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8AAF1FE1E862EB100A379CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
+				INFOPLIST_FILE = PDchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.hdu.PDchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8AAF1FF1E862EB100A379CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
+				INFOPLIST_FILE = PDchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.hdu.PDchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8AAF1DE1E862EB000A379CC /* Build configuration list for PBXProject "PDchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AAF1FB1E862EB100A379CC /* Debug */,
+				E8AAF1FC1E862EB100A379CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AAF1FD1E862EB100A379CC /* Build configuration list for PBXNativeTarget "PDchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AAF1FE1E862EB100A379CC /* Debug */,
+				E8AAF1FF1E862EB100A379CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8AAF1F21E862EB100A379CC /* PDchat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8AAF1F31E862EB100A379CC /* PDchat.xcdatamodel */,
+			);
+			currentVersion = E8AAF1F31E862EB100A379CC /* PDchat.xcdatamodel */;
+			path = PDchat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8AAF1DB1E862EB000A379CC /* Project object */;
+}
