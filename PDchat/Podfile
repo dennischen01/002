@@ -4,6 +4,8 @@ target 'PDchat' do
 
 pod 'HyphenateLite'
 
+pod 'Hyphenate'
+
 pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
 
 end
