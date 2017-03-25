@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCA619C8E1218207B59EED6D /* libPods-PDchat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6210AE0D6E4362788CCD1 /* libPods-PDchat.a */; };
 		E8AAF1E81E862EB100A379CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1E71E862EB100A379CC /* main.m */; };
 		E8AAF1EB1E862EB100A379CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1EA1E862EB100A379CC /* AppDelegate.m */; };
 		E8AAF1EE1E862EB100A379CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAF1ED1E862EB100A379CC /* ViewController.m */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DF38A0B2CAA6AC3E7804522 /* Pods-PDchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDchat/Pods-PDchat.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F6210AE0D6E4362788CCD1 /* libPods-PDchat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDchat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D070C6ED8A31AA2ED533EA46 /* Pods-PDchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDchat/Pods-PDchat.release.xcconfig"; sourceTree = "<group>"; };
 		E8AAF1E31E862EB100A379CC /* PDchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AAF1E71E862EB100A379CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8AAF1E91E862EB100A379CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA619C8E1218207B59EED6D /* libPods-PDchat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002C7D84F47E2A60DB5B7B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F6210AE0D6E4362788CCD1 /* libPods-PDchat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF9E35E09099624E037F1C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DF38A0B2CAA6AC3E7804522 /* Pods-PDchat.debug.xcconfig */,
+				D070C6ED8A31AA2ED533EA46 /* Pods-PDchat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8AAF1DA1E862EB000A379CC = {
 			isa = PBXGroup;
 			children = (
 				E8AAF1E51E862EB100A379CC /* PDchat */,
 				E8AAF1E41E862EB100A379CC /* Products */,
+				1FF9E35E09099624E037F1C4 /* Pods */,
+				002C7D84F47E2A60DB5B7B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8AAF1FD1E862EB100A379CC /* Build configuration list for PBXNativeTarget "PDchat" */;
 			buildPhases = (
+				ECB19E0781E02DAB4E3931E3 /* [CP] Check Pods Manifest.lock */,
 				E8AAF1DF1E862EB000A379CC /* Sources */,
 				E8AAF1E01E862EB000A379CC /* Frameworks */,
 				E8AAF1E11E862EB000A379CC /* Resources */,
+				BA4DAAFA90C2E72656254F5C /* [CP] Embed Pods Frameworks */,
+				7FF134226040041A67A102C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +175,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FF134226040041A67A102C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDchat/Pods-PDchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4DAAFA90C2E72656254F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDchat/Pods-PDchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB19E0781E02DAB4E3931E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8AAF1DF1E862EB000A379CC /* Sources */ = {
@@ -273,6 +348,7 @@
 		};
 		E8AAF1FE1E862EB100A379CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF38A0B2CAA6AC3E7804522 /* Pods-PDchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
@@ -285,6 +361,7 @@
 		};
 		E8AAF1FF1E862EB100A379CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D070C6ED8A31AA2ED533EA46 /* Pods-PDchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
