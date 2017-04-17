@@ -352,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PDchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.hdu.PDchat;
@@ -365,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Y9SMQXB8W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PDchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.hdu.PDchat;
@@ -391,6 +393,7 @@
 				E8AAF1FF1E862EB100A379CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
